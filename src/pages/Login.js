@@ -4,6 +4,7 @@ import Logo from '../assets/img/logo.jpeg'
 import Button from '@material-ui/core/Button'
 import EmailIcon from '@material-ui/icons/Email';
 import LockIcon from '@material-ui/icons/Lock';
+import {Link} from 'react-router-dom';
 
 function Login() {
     return (
@@ -24,12 +25,12 @@ function Login() {
                         <input type="password" placeholder="Password" />
                     </div>
                     <div className="login__reset">
-                        <p>Forgot password? <span>Reset</span></p>
+                        <p>Forgot password? <span><Link className="login__link" to="/reset">Reset</Link></span></p>
                     </div>
                     <Button className="login__btn">Login</Button>
                 </div>
                 <div className="login__containerContent">
-                    <p>No account yet? <span>Sign Up</span></p>
+                    <p>No account yet? <span><Link className="login__link" to="/sign-up">Sign Up</Link></span></p>
                 </div>
             </div>
         </div>
