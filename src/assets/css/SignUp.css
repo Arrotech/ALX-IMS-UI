@@ -1,0 +1,128 @@
+.signup{
+    font-size: 11px;
+}
+.signup>h1{
+    text-align: center;
+    color: #f9f9f9;
+    margin-top: 60px;
+}
+.signup__container{
+    display: flex;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    width: 800px;
+    height: 450px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.signup__left{
+    flex: 0.4;
+    position: relative;
+}
+
+.signup__left>img{
+    height: 100%;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));
+}
+
+.signup__topLeft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 600;
+   
+  }
+
+  .signup__link{
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+
+  .signup__loginlink{
+    text-decoration: none;
+    color: #ec1c24;
+  }
+
+.signup__centered {
+    position: absolute;
+    top: 50%;
+    left: 56px;
+    transform: translate(-50%, -50%);
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signup__centeredParagraph {
+    position: absolute;
+    top: 62%;
+    left: 118px;
+    transform: translate(-50%, -50%);
+    color: #f9f9f9;
+    font-size: 14px;
+}
+
+.signup__right{
+    flex: 0.6;
+}
+
+.signup__right>h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup__card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 350px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    background-color: #f9f9f9;
+}
+
+.signup__firstname{
+    margin-top: 40px;
+}
+
+.signup__firstname, .signup__lastname,
+.signup__username,
+.signup__phone,
+.signup__email,
+.signup__password{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #252525;
+    padding-bottom: 6px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.signup__account>p{
+    text-align: center;
+}
+
+.signup__account p span{
+    color: #ec1c24;
+    text-decoration: none;
+}
+
+.signup__btn{
+    margin-top: 20px !important;
+    background-color: #ec1c24 !important;
+    color: #f9f9f9 !important;
+    text-transform: inherit !important;
+}
+
+.signup__btn:hover{
+    mask-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.6));
+}
