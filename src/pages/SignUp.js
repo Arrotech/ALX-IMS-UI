@@ -61,14 +61,16 @@ function SignUp() {
         ).then(response => {
             setLoading(false)
             setOpen(true);
-            history.push('/login')
+            setError(response.data.message + " Check your email to confirm your account.")
+            
         }).catch(error => {
             setLoading(false)
             setOpen(true);
-            const status = error.response.data.status;
-            const message = error.response.data.message;
-            if (status != '201') setError(message)
-            else setError("Something went wrong. Please try again later!")
+            if (error.response.data.status != '201'){
+                setError(error.response.data.message)
+            }else{
+                setError("Something went wrong. Please try again later.")
+            }
         })
 
     }
