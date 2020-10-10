@@ -4,7 +4,7 @@
 .signup>h1{
     text-align: center;
     color: #f9f9f9;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .signup__container{
     display: flex;
@@ -12,7 +12,7 @@
     background-color: #f9f9f9;
     width: 800px;
     height: 450px;
-    margin-top: 60px;
+    margin-top: 50px;
     border-radius: 5px;
 }
 
@@ -121,8 +121,14 @@ input:focus{
     background-color: #ec1c24 !important;
     color: #f9f9f9 !important;
     text-transform: inherit !important;
+    height: 30px;
+    border-radius: 5px;
 }
 
 .signup__btn:hover{
     mask-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.6));
+}
+
+.signup__snackbar{
+    background-color: #ec1c24 !important;
 }
