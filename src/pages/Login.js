@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../assets/css/Login.css'
 import Logo from '../assets/img/logo.jpeg'
-import Button from '@material-ui/core/Button'
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 import { makeStyles } from '@material-ui/core/styles';
@@ -34,10 +33,6 @@ function Login() {
     const classes = useStyles();
     const [open, setOpen] = React.useState(false);
 
-    const handleClick = () => {
-        
-    };
-
     const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
             return;
@@ -59,10 +54,14 @@ function Login() {
             setOpen(true);
             setUserSession(response.data.token, response.data.user)
             history.push('/dashboard')
+            
         }).catch(error => {
             setLoading(false)
             setOpen(true);
-            if (error.response.status === 401) setError(error.response.data.message)
+            const status = error.response.data.status;
+            const message = error.response.data.message;
+            console.log(message)
+            if (status === '401') return setError(message)
             else setError("Something went wrong. Please try again later!")
         })
 
