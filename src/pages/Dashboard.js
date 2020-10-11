@@ -1,19 +1,22 @@
-import React, {useState} from 'react'
-import {useHistory} from 'react-router-dom'
+import React from 'react'
 import '../assets/css/Dashboard.css'
-import Button from '@material-ui/core/Button'
+import Jokes from '../components/Jokes'
+import DashboardHeader from '../components/DashboardHeader'
 
 function Dashboard() {
 
-    const history = useHistory()
 
-    const handleLogout = () =>{
-        history.push('/login')
-    }
 
     return (
         <div className="dashboard">
-            <Button className="dashboard__logoutBtn" onClick={handleLogout}>Logout</Button>
+            <DashboardHeader />
+            <div className="dashboard__content">
+                <div className="dashboard__left">
+                </div>
+                <div className="dashboard__right">
+                    <Jokes />
+                </div>
+            </div>
         </div>
     )
 }

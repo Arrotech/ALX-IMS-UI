@@ -1,0 +1,30 @@
+.dashboardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    font-size: 11px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: #f9f9f9;
+    padding: 10px;
+}
+.dashboardHeader__left{
+    flex:1;
+}
+.dashboardHeader__right{
+    display: flex;
+    flex:0.2;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboardHeader__logoutBtn{
+    text-transform: inherit !important;
+    color: #f9f9f9 !important;
+}
+
+.dashboardHeader__logoutBtn:hover{
+    background-color: #252525 !important;
+    color: #ec1c24 !important;
+}

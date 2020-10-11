@@ -1,0 +1,141 @@
+[debug] [2020-10-10T12:24:55.552Z] ----------------------------------------------------------------------
+[debug] [2020-10-10T12:24:55.555Z] Command:       /snap/firebase/1/bin/node /snap/firebase/1/bin/firebase init
+[debug] [2020-10-10T12:24:55.555Z] CLI Version:   3.16.0
+[debug] [2020-10-10T12:24:55.555Z] Platform:      linux
+[debug] [2020-10-10T12:24:55.555Z] Node Version:  v6.11.4
+[debug] [2020-10-10T12:24:55.555Z] Time:          Sat Oct 10 2020 15:24:55 GMT+0300 (EAT)
+[debug] [2020-10-10T12:24:55.555Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-10-10T12:24:55.563Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2020-10-10T12:24:55.563Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/kamcho/Projects/alx-ims-ui/alx
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-10-10T12:25:08.868Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-10T12:25:08.869Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1//03HLOO-qPFtd1CgYIARAAGAMSNwF-L9IrIEPYdhxFbGfnq67jGZlD2_XAGQ0wQQYSwC4KjOLC2Zahj9TExqtuFHlJ9W5Ml2pUHyg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Oct 10 2020 15:25:08 GMT+0300 (EAT)
+[debug] [2020-10-10T12:25:09.854Z] <<< HTTP RESPONSE 200
+[debug] [2020-10-10T12:25:09.917Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Sat Oct 10 2020 15:25:09 GMT+0300 (EAT)
+[debug] [2020-10-10T12:27:21.220Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
+[debug] [2020-10-10T12:27:29.519Z] ----------------------------------------------------------------------
+[debug] [2020-10-10T12:27:29.522Z] Command:       /snap/firebase/1/bin/node /snap/firebase/1/bin/firebase init
+[debug] [2020-10-10T12:27:29.522Z] CLI Version:   3.16.0
+[debug] [2020-10-10T12:27:29.522Z] Platform:      linux
+[debug] [2020-10-10T12:27:29.522Z] Node Version:  v6.11.4
+[debug] [2020-10-10T12:27:29.522Z] Time:          Sat Oct 10 2020 15:27:29 GMT+0300 (EAT)
+[debug] [2020-10-10T12:27:29.522Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-10-10T12:27:29.530Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2020-10-10T12:27:29.530Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/kamcho/Projects/alx-ims-ui/alx
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-10-10T12:27:33.462Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Sat Oct 10 2020 15:27:33 GMT+0300 (EAT)
+[debug] [2020-10-10T12:29:44.972Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
+[debug] [2020-10-10T15:19:30.800Z] ----------------------------------------------------------------------
+[debug] [2020-10-10T15:19:30.802Z] Command:       /snap/firebase/1/bin/node /snap/firebase/1/bin/firebase init
+[debug] [2020-10-10T15:19:30.802Z] CLI Version:   3.16.0
+[debug] [2020-10-10T15:19:30.802Z] Platform:      linux
+[debug] [2020-10-10T15:19:30.802Z] Node Version:  v6.11.4
+[debug] [2020-10-10T15:19:30.802Z] Time:          Sat Oct 10 2020 18:19:30 GMT+0300 (EAT)
+[debug] [2020-10-10T15:19:30.802Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-10-10T15:19:30.810Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2020-10-10T15:19:30.810Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/kamcho/Projects/alx-ims-ui/alx
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-10-10T15:19:34.579Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-10-10T15:19:34.580Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1//03HLOO-qPFtd1CgYIARAAGAMSNwF-L9IrIEPYdhxFbGfnq67jGZlD2_XAGQ0wQQYSwC4KjOLC2Zahj9TExqtuFHlJ9W5Ml2pUHyg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Oct 10 2020 18:19:34 GMT+0300 (EAT)
+[debug] [2020-10-10T15:19:35.271Z] <<< HTTP RESPONSE 200
+[debug] [2020-10-10T15:19:35.332Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Sat Oct 10 2020 18:19:35 GMT+0300 (EAT)
+[debug] [2020-10-10T15:21:50.832Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
