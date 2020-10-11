@@ -1,5 +1,13 @@
-.dashboard__logoutBtn{
-    background-color: #ec1c24 !important;
-    color: #f9f9f9 !important;
-    text-transform: inherit !important;
+.dashboard__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard__left{
+    flex: 0.5;
+}
+
+.dashboard__right{
+    flex: 0.5;
 }
