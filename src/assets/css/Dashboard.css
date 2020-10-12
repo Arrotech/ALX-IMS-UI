@@ -5,9 +5,9 @@
 }
 
 .dashboard__left{
-    flex: 0.5;
+    flex: 1;
 }
 
 .dashboard__right{
-    flex: 0.5;
+    flex: 0.3;
 }
