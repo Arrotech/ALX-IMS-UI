@@ -24,10 +24,13 @@ function Jokes() {
 
     return (
         <div className="jokes">
+            <div className="jokes__header">
+                <h1>Top Ten Jokes</h1>
+            </div>
             {jokes.map((joke) => {
                 return (
                     <div key={joke.id} className='jokes__container'>
-                        <p className='jokes__call'>{joke.setup} </p>
+                        <li className='jokes__call'>{joke.setup} </li>
                         <p className='jokes__response'>{joke.punchline}</p>
                     </div>
                 );
