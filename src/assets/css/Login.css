@@ -4,7 +4,7 @@
 .login>h1{
     text-align: center;
     margin-top: 60px;
-    color: #f9f9f9;
+    color: #000000;
 }
 .login__container{
     display: flex;
@@ -12,9 +12,9 @@
     margin: 7% auto;
     width: 350px;
     background-color: #f9f9f9;
-    -moz-box-shadow: 0 0 3px #ccc;
-    -webkit-box-shadow: 0 0 3px #ccc;
-    box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
     margin-top: 60px;
     border-radius: 5px;
 }

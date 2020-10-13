@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f9f9f9;
+    background-color: #252525;
     font-size: 11px;
     position: sticky;
     top: 0;
     z-index: 100;
-    color: #252525;
+    color: #f9f9f9;
     padding: 10px;
 }
 .dashboardHeader__left{
@@ -21,10 +21,10 @@
 }
 .dashboardHeader__logoutBtn{
     text-transform: inherit !important;
-    color: #252525 !important;
+    color: #f9f9f9 !important;
 }
 
 .dashboardHeader__logoutBtn:hover{
-    background-color: #f9f9f9 !important;
+    background-color: #252525 !important;
     color: #ec1c24 !important;
 }
