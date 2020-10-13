@@ -1,0 +1,94 @@
+
+.animeCollection__container{
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    -moz-box-shadow: 0 0 6px #ccc;
+    -webkit-box-shadow: 0 0 6px #ccc;
+    box-shadow: 0 0 6px #ccc;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.animeCollection__content{
+    padding: 20px;
+    padding-top: 0;
+}
+
+.animeCollection__contentHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.animeCollection__contentHeader>P{
+    color: #ec1c24;
+}
+
+.animeCollection__contentRating{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.animeCollection__contentRating>p{
+    padding-bottom: 6px;
+}
+
+.animeCollection__contentRatingSpacing{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.animeCollection__rating{
+    padding-left: 10px;
+    color: gray;
+}
+
+
+.animeCollection__description>h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.animeCollection__synopsis{
+    font-size: small;
+}
+
+.animeCollection__timestamp{
+    color: gray;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.animeCollection__date{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+span{
+    font-weight: 600;
+    font-size: small;
+}
+
+@media(max-width: 900px){
+    .animeCollection__container{
+        flex-direction: column;
+    }
+    .animeCollection__contentHeader{
+        flex-direction: column;
+    }
+    .animeCollection__image>img{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
