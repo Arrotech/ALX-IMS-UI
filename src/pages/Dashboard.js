@@ -3,6 +3,7 @@ import '../assets/css/Dashboard.css'
 import Jokes from '../components/Jokes'
 import DashboardHeader from '../components/DashboardHeader'
 import AnimeCollection from '../components/AnimeCollection'
+import Manga from '../pages/Manga'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ function Dashboard() {
                             </div>
                         </div>
                     </Route>
+                    <Route path="/manga"><Manga/></Route>
                 </Switch>
             </Router>
         </div>
