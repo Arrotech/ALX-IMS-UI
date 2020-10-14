@@ -1,0 +1,8 @@
+.sidebar{
+    margin-top: 20px;
+}
+
+.sidebar__links{
+    text-decoration: none;
+    padding: 20px;
+}
