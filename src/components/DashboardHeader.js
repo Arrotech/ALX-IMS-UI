@@ -36,9 +36,9 @@ function DashboardHeader() {
                     <SearchIcon className="dashboardHeader__searchIcon" />
                 </div>
                 <div className="dashboardHeader__right">
-                    <p>Animations</p>
-                    <p>Manga</p>
-                    <p>Categories</p>
+                    <Link className="dashboardHeader__links" to="/animations"><p>Animations</p></Link>
+                    <Link className="dashboardHeader__links" to="/manga"><p>Manga</p></Link>
+                    <Link className="dashboardHeader__links" to="/categories"><p>Categories</p></Link>
                     <div className="dashboardHeader__user">
                         <span className="dashboardHeader__active"><RadioButtonCheckedIcon /></span>
                         <p>{user.username}</p>

@@ -32,8 +32,6 @@ function AnimeCollection() {
 
     return (
         <div className="animeCollection">
-            <div className="animeCollection__header">
-            </div>
             {animations.map((animation) => {
                 return (
                     <div key={animation.id} className='animeCollection__container'>
