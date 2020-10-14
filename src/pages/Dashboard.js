@@ -14,6 +14,7 @@ function Dashboard() {
             <Router>
                 <DashboardHeader />
                 <Switch>
+                    <Route path="/dashboard"><AnimeCollection /></Route>
                     <Route path="/animations">
                         <div className="dashboard__content">
                             <div className="dashboard__left">
@@ -25,7 +26,7 @@ function Dashboard() {
                             </div>
                         </div>
                     </Route>
-                    <Route path="/manga"><Manga/></Route>
+                    <Route path="/manga"><Manga /></Route>
                 </Switch>
             </Router>
         </div>
