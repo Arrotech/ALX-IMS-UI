@@ -6,6 +6,7 @@ import AnimeCollection from '../components/AnimeCollection'
 import Manga from '../pages/Manga'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Films from './Films'
 
 function Dashboard() {
 
@@ -14,7 +15,7 @@ function Dashboard() {
             <Router>
                 <DashboardHeader />
                 <Switch>
-                    <Route path="/dashboard"><AnimeCollection /></Route>
+                    <Route path="/dashboard"><Films /></Route>
                     <Route path="/animations">
                         <div className="dashboard__content">
                             <div className="dashboard__left">

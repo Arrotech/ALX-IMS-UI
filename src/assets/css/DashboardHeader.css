@@ -90,7 +90,7 @@
     background-color: #252525;
     width: 250px;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -100%;
     transition: 850ms;
@@ -105,18 +105,31 @@
 .nav-menu.active{
     left: 0;
     transition: 350ms;
+    position: absolute;
 }
 
 @media(max-width: 900px){
 
-    .dashboardHeader__right>p{
-        display: none;
+    .dashboardHeader{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dashboardHeader__center{
+        width: 95%;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .dashboardHeader__links{
+        margin-right: 8px;
     }
     .dashboardHeader__searchIcon{
         background-color: #f9f9f9 !important;
         color: #ec1c24 !important;
     }
-}    .dashboardHeader__searchIcon{
-    background-color: #f9f9f9 !important;
-    color: #ec1c24 !important;
-}
+    .dashboardHeader__logoutBtn{
+        margin-left: 8px !important;
+    }
+}    
