@@ -1,0 +1,71 @@
+.films__animeCollection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.films__animeImage{
+    position: relative;
+    clear: both;
+}
+
+.films__animeTitle {
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.films__animeImage:hover{
+    background-color: #ec1c24;
+    opacity: 0.4;
+}
+
+.films__animeImage:hover>p{
+    color: #fff;
+}
+
+.films__animeImage>img{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.films__mangaImage{
+    position: relative;
+}
+
+.films__mangaImage:hover{
+    background-color: #ec1c24;
+    opacity: 0.4;
+}
+
+.films__mangaTitle{
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.films__mangaImage:hover>p{
+    color: #fff;
+}
+
+.films__mangaImage>img{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.films__animeTitle{
+    color: #f9f9f9;
+}
+.films__mangaTitle{
+    color: #f9f9f9;
+}
