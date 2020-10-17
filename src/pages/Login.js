@@ -9,6 +9,8 @@ import LockIcon from '@material-ui/icons/Lock';
 import { Link, useHistory } from 'react-router-dom';
 import axios from 'axios'
 import { setUserSession } from '../Utils/Common'
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 function Alert(props) {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -70,6 +72,7 @@ function Login() {
     return (
         <div className={classes.root}>
             <div className="login">
+                <NavBar/>
                 <h1>Welcome Back to ALX-IMS</h1>
                 <div className="login__container">
                     <div className="login__containerImage">
@@ -100,6 +103,7 @@ function Login() {
                         <p>No account yet? <span><Link className="login__link" to="/sign-up">Sign Up</Link></span></p>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </div>
     )
