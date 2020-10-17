@@ -3,7 +3,7 @@
 }
 .login>h1{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
     color: #000000;
 }
 .login__container{
@@ -15,8 +15,9 @@
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
-    margin-top: 60px;
+    margin-top: 40px;
     border-radius: 5px;
+    margin-bottom: 120px;
 }
 
 .login__containerImage>img{
@@ -139,4 +140,24 @@
 
 .login__snackbar{
     background-color: #ec1c24 !important;
+ }
+
+ @media(max-width:900px){
+     .login__container{
+         width: 300px;
+     }
+     .login__containerCard{
+        width: 250px;
+     }
+
+     .login__emailInput{
+        width: 230px;
+     }
+
+     .login__passwordInput{
+        width: 230px;
+     }
+     .login__containerImage>img{
+        width: 300px !important;
+     }
  }

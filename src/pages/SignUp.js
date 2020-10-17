@@ -11,6 +11,8 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import PersonIcon from '@material-ui/icons/Person';
 import { Link, useHistory } from 'react-router-dom';
 import axios from 'axios'
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 function Alert(props) {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -78,6 +80,7 @@ function SignUp() {
     return (
         <div className={classes.root}>
             <div className="signup">
+                <NavBar/>
                 <h1>Welcome Onboard</h1>
                 <div className="signup__container">
                     <div className="signup__left">
@@ -126,6 +129,7 @@ function SignUp() {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </div>
     )

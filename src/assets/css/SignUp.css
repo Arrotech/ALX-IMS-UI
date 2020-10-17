@@ -4,7 +4,7 @@
 .signup>h1{
     text-align: center;
     color: #000000;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .signup__container{
     display: flex;
@@ -12,11 +12,12 @@
     background-color: #f9f9f9;
     width: 800px;
     height: 450px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 5px;
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
+    margin-bottom: 70px;
 }
 
 .signup__left{
@@ -134,4 +135,17 @@ input:focus{
 
 .signup__snackbar{
     background-color: #ec1c24 !important;
+}
+
+@media(max-width:900px){
+    .signup__container{
+        flex-direction: column;
+        width: 300px;
+    }
+    .signup__left{
+        display: none;
+    }
+    .signup__card{
+        width: 250px;
+    }
 }
