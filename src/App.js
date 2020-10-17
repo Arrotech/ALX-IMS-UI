@@ -6,12 +6,14 @@ import Dashboard from './pages/Dashboard'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import NavBar from './components/NavBar'
+import PasswordReset from './pages/PasswordReset'
 
 function App() {
   return (
     <div className="app">
       <Router>
         <Switch>
+        <Route path="/reset"><PasswordReset /></Route>
           <Route path="/login"><Login /></Route>
           <Route path="/sign-up"><SignUp /></Route>
           <Route path="/dashboard"><Dashboard /></Route>
