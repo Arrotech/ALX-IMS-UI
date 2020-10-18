@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <div className="navBar">
             <div className="navBar__left">
-                <Link className="navBar__leftTitle" to="/"><p>ALX-IMS</p></Link>
+                <Link className="navBar__leftTitle" to="/"><p>ALX<span className="navBar__spannedText">IM</span>S</p></Link>
             </div>
             <div className="navBar__right">
                 <Link className="navBar__links" to="/sign-up"><Button className="navBar__signupbtn">Sign Up</Button></Link>

@@ -29,7 +29,7 @@ function DashboardHeader() {
             <div className="dashboardHeader">
                 <div className="dashboardHeader__left">
                     <Link className="dashboardHeader__menuIcon" to="#"><MenuIcon onClick={showSidebar} /></Link>
-                    <Link className="dashboardHeader__logoName" to="/dashboard"><p>ALXIMS</p></Link>
+                    <Link className="dashboardHeader__logoName" to="/dashboard"><p>ALX<span className="navBar__spannedText">IM</span>S</p></Link>
                 </div>
                 <div className="dashboardHeader__center">
                     <input type="text" placeholder="Search..." />

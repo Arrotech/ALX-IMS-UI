@@ -1,10 +1,18 @@
 .banner{
     position: relative;
+    background-image: url("../img/splash.jpg");
+      /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner__expandMore{
     font-size: 60px !important;
-    color: #ec1c24 !important;
+    color: #f9f9f9 !important;
 }
 
 .banner__btn{
@@ -17,12 +25,11 @@
     height:  60px !important;
 }
 
-/* .banner__image {
-    width: 100%;
-    z-index: -1;
-    margin-bottom: -150px;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-} */
+.banner__btn:hover{
+    color: #252525 !important;
+    border-radius: 5px !important;
+    background-color: #f9f9f9 !important;
+}
 
 .banner__text{
     text-align: center;
@@ -32,6 +39,10 @@
 .banner__text>p{
     color: #ec1c24;
     margin-top: 10px;
+}
+
+.banner__text>h1{
+    color: #f9f9f9;
 }
 
 @media(max-width:900px){
