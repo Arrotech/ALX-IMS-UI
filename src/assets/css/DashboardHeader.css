@@ -9,12 +9,18 @@
 }
 .dashboardHeader__left{
     display: flex;
-    flex:0.2;
+    flex:0.3;
     align-items: center;
 }
-.dashboardHeader__left>p{
+.dashboardHeader__logoName{
     padding-left: 10px;
     font-size: 18px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px ;
+    text-decoration: none;
+    color: #f9f9f9;
+    cursor: pointer;
 }
 .dashboardHeader__center{
     display: flex;
@@ -46,7 +52,7 @@
 
 .dashboardHeader__right{
     display: flex;
-    flex:0.4;
+    flex:0.3;
     align-items: center;
     justify-content: space-between;
 }
@@ -58,6 +64,7 @@
     color: #f9f9f9;
     text-decoration: none;
     font-size: 14px;
+    padding-top: 10px;
 }
 .dashboardHeader__links:hover{
     color: #ec1c24;
@@ -66,6 +73,10 @@
 .dashboardHeader__user{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.dashboardHeader__user>p{
+    padding-top: 8px;
 }
 .dashboardHeader__active{
     color: green !important;

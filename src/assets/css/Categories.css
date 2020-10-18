@@ -1,0 +1,15 @@
+.categories{
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.categories>h2{
+    margin-bottom: 10px;
+    color: #252525;
+}
+
+.categories__contentHeader:hover{
+    text-decoration: underline;
+}

@@ -29,6 +29,7 @@
 
 .animeCollection__contentRating{
     display: flex;
+    text-align: center;
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -49,6 +50,8 @@
 .animeCollection__rating{
     padding-left: 10px;
     color: gray;
+    padding-top: 10px;
+
 }
 
 
@@ -65,6 +68,7 @@
     color: gray;
     padding-left: 10px;
     font-size: small;
+    padding-top: 10px;
 }
 
 .animeCollection__date{

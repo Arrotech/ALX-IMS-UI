@@ -29,7 +29,7 @@ function DashboardHeader() {
             <div className="dashboardHeader">
                 <div className="dashboardHeader__left">
                     <Link className="dashboardHeader__menuIcon" to="#"><MenuIcon onClick={showSidebar} /></Link>
-                    <p>ALXIMS</p>
+                    <Link className="dashboardHeader__logoName" to="/dashboard"><p>ALXIMS</p></Link>
                 </div>
                 <div className="dashboardHeader__center">
                     <input type="text" placeholder="Search..." />
@@ -38,7 +38,6 @@ function DashboardHeader() {
                 <div className="dashboardHeader__right">
                     <Link className="dashboardHeader__links" to="/animations"><p>Animations</p></Link>
                     <Link className="dashboardHeader__links" to="/manga"><p>Manga</p></Link>
-                    <Link className="dashboardHeader__links" to="/categories"><p>Categories</p></Link>
                     <div className="dashboardHeader__user">
                         <span className="dashboardHeader__active"><RadioButtonCheckedIcon /></span>
                         <p>{user.username}</p>

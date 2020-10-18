@@ -24,8 +24,9 @@ function Jokes() {
 
     return (
         <div className="jokes">
+            <hr/>
             <div className="jokes__header">
-                <h1>Top Ten Jokes</h1>
+                <h2>Top Ten Jokes</h2>
             </div>
             {jokes.map((joke) => {
                 return (
@@ -35,6 +36,7 @@ function Jokes() {
                     </div>
                 );
             })}
+             <hr/>
         </div>
     )
 }
