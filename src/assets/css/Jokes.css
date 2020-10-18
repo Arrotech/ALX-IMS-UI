@@ -2,23 +2,23 @@
     background-color: #f9f9f9;
     font-size: 11px;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .jokes__header{
-    position: sticky;
-    top: 54px;
-    z-index: 100;
-    padding: 25px;
-    background-color: #252525;
-    color: #f9f9f9;
+    background-color: #f9f9f9;
+    color: #252525;
+    font-size: 11px;
+    padding-left: 20px;
 }
 
 .jokes__container{
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 .jokes__container>p{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .jokes__response{

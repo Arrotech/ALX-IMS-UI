@@ -13,7 +13,6 @@ function Sidebar() {
         <div className="sidebar">
             <Link className="sidebar__links" to="/animations"><SidebarOption title="Animations" Icon={DoubleArrowIcon} /></Link>
             <Link className="sidebar__links" to="/manga"><SidebarOption title="Manga" Icon={CardTravelIcon} /></Link>
-            <Link className="sidebar__links" to="/categories"><SidebarOption title="Categories" Icon={LoyaltyIcon} /></Link>
         </div>
     )
 }
