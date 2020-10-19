@@ -18,6 +18,12 @@
 
 .dashboard__right{
     flex: 0.3;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #f9f9f9;
+
 }
 
 @media(max-width: 900px){

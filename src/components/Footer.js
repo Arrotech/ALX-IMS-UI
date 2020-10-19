@@ -4,7 +4,7 @@ import '../assets/css/Footer.css'
 function Footer() {
     return (
         <div className="footer">
-            <p>Explore our latest special offers or add ALXIMS to a partner account for convenience and discounts. Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+            <p>Explore our latest special offers or add ALXIMS to a partner account for convenience and discounts. View unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
             <p>Save your favorites easily and always have something to watch.</p>
             <hr />
             <div className="footer__content">

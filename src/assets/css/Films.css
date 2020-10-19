@@ -1,6 +1,15 @@
 .films__animeCollection{
     display: flex;
     flex-wrap: wrap;
+    background-color: #252525;
+}
+
+.films__animeContainer{
+    border: 1px solid #807474;
+}
+
+.films__mangaContainer{
+    border: 1px solid #807474;
 }
 
 .films__animeImage{
@@ -28,7 +37,7 @@
 }
 
 .films__animeImage>img{
-    width: 300px;
+    width: 298px;
     height: 150px;
     margin: 10px;
     border-radius: 3px;
@@ -58,7 +67,7 @@
 }
 
 .films__mangaImage>img{
-    width: 300px;
+    width: 298px;
     height: 150px;
     margin: 10px;
     border-radius: 3px;

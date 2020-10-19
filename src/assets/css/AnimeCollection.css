@@ -1,4 +1,6 @@
-
+.animeCollection{
+    background-color: #f9f9f9;
+}
 .animeCollection__container{
     padding: 20px;
     display: flex;

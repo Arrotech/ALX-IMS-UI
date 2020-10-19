@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Footer from '../components/Footer'
 
 function Manga() {
 
@@ -28,44 +29,44 @@ function Manga() {
     }, []);
 
     return (
-        <div className="manga">
-            {mangas.map((manga) => {
-                return (
-                    <div key={manga.id} className='animeCollection__container'>
-                        <div className="animeCollection__image">
-                            <img src={manga.posterImage} alt="Poster" />
+            <div className="manga">
+                {mangas.map((manga) => {
+                    return (
+                        <div key={manga.id} className='animeCollection__container'>
+                            <div className="animeCollection__image">
+                                <img src={manga.posterImage} alt="Poster" />
+                            </div>
+                            <div className="animeCollection__content">
+                                <div className="animeCollection__contentHeader">
+                                    <h1 className='animeCollection__response'>{manga.titles}</h1>
+                                </div>
+                                <div className="animeCollection__contentRating">
+                                    <div className="animeCollection__contentRatingSpacing">
+                                        <span>Average Rating</span>
+                                        <p className='animeCollection__rating'> {manga.averageRating}%</p>
+                                    </div>
+                                    <div className="animeCollection__contentRatingSpacing">
+                                        <span>Popularity</span>
+                                        <p className='animeCollection__rating'> {manga.popularityRank}</p>
+                                    </div>
+                                    <div className="animeCollection__contentRatingSpacing">
+                                        <span>Rank</span>
+                                        <p className='animeCollection__rating'> {manga.ratingRank}</p>
+                                    </div>
+                                </div>
+                                <div className="animeCollection__description">
+                                    <h3>Summary</h3>
+                                    <p className='animeCollection__synopsis'>{manga.synopsis}</p>
+                                </div>
+                                <div className="animeCollection__date">
+                                    <span>Posted On</span>
+                                    <p className='animeCollection__timestamp'>{manga.createdAt}</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="animeCollection__content">
-                            <div className="animeCollection__contentHeader">
-                                <h1 className='animeCollection__response'>{manga.titles}</h1>
-                            </div>
-                            <div className="animeCollection__contentRating">
-                                <div className="animeCollection__contentRatingSpacing">
-                                    <span>Average Rating</span>
-                                    <p className='animeCollection__rating'> {manga.averageRating}%</p>
-                                </div>
-                                <div className="animeCollection__contentRatingSpacing">
-                                    <span>Popularity</span>
-                                    <p className='animeCollection__rating'> {manga.popularityRank}</p>
-                                </div>
-                                <div className="animeCollection__contentRatingSpacing">
-                                    <span>Rank</span>
-                                    <p className='animeCollection__rating'> {manga.ratingRank}</p>
-                                </div>
-                            </div>
-                            <div className="animeCollection__description">
-                                <h3>Summary</h3>
-                                <p className='animeCollection__synopsis'>{manga.synopsis}</p>
-                            </div>
-                            <div className="animeCollection__date">
-                                <span>Posted On</span>
-                                <p className='animeCollection__timestamp'>{manga.createdAt}</p>
-                            </div>
-                        </div>
-                    </div>
-                );
-            })}
-        </div>
+                    );
+                })}
+            </div>
     )
 }
 

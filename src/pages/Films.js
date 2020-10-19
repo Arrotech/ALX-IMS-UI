@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../assets/css/Films.css'
+import Footer from '../components/Footer'
 
 function Films() {
     const [animations, setAnimations] = useState([]);
@@ -78,6 +79,7 @@ function Films() {
                     );
                 })}
             </div>
+            <Footer/>
         </div>
     )
 }
